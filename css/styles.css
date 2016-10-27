@@ -63,32 +63,29 @@ header {
   background-color:#FFFFFF;
 	color: #593f98;
   margin-top:30px;
+  margin-bottom:30px;
 }
 
-.whiteBackground h2{
+.whiteBackground h3,h2,h1{
 	font-weight: bold;
 	font-family: 'Lalezar', cursive;
 }
 
-.whiteBackground p{
-  font-family: 'Roboto', sans-serif;
-  font-size:1.2em;
-}
 
 /* ###### PURPLE BACKGROUND ###### */
 .purpleBackground{
   background-color:#593f98;
 	color: #FFFFFF;
+  padding-bottom: 30px;
+
 }
 
-.purpleBackground h2{
-	font-weight: bold;
-	font-family: 'Lalezar', cursive;
-}
-
-.purpleBackground p{
+p {
   font-family: 'Roboto', sans-serif;
+  font-size:1.1em;
 }
+
+
 
 
 /* ####### HEADING ####### */
@@ -113,6 +110,9 @@ header {
   width: 100%;
 }
 
+#mainText{
+  margin-top: 25px;
+}
 
 /* ####### PROGRAMME ####### */
 
