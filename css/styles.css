@@ -26,13 +26,11 @@ header {
 
 .navbar-default .navbar-brand  {
   color:#593f98;
-  font-weight:bold;
 }
 
 .navbar-default .navbar-nav>li>a {
   color:#593f98;
   font-size: 1.2em;
-  font-weight:bold;
   display: block;
   text-decoration: none;
   border-bottom: 3px solid transparent;
@@ -45,7 +43,6 @@ header {
 .navbar-default .navbar-nav>li>a:hover {
   color:#593f98;
   font-size: 1.2em;
-  font-weight:bold;
   border-bottom: 3px solid #593F98;
 }
 
@@ -170,11 +167,6 @@ p {
 }
 
 
-
-
-
-
-
 /* ######### FOOTER ######### */
 
 footer {
@@ -191,13 +183,10 @@ footer {
 
 
 /* Extra Small Devices, .visible-xs-* */
-@media (max-width: 767px) {}
+/* @media (max-width: 767px) {}  */
 
 /* Small Devices, .visible-sm-* */
-@media (min-width: 768px) and (max-width: 991px) {}
-
-
-
+/* @media (min-width: 768px) and (max-width: 991px) {} */
 
 
   /* Custom, iPhone Retina */
