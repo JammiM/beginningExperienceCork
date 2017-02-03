@@ -189,16 +189,6 @@ footer {
 /* ######### MEDIA QUERIES ######### */
 
 
-@media(max-width:767px){
-  #heading h3{
-    font-size: 20px;
-  }
-}
-@media(min-width:768px){}
-@media(min-width:992px){}
-@media(min-width:1200px){}
-
-/* @media all and (max-width: 959px) and (min-width: 600px)  */
 
 /* Extra Small Devices, .visible-xs-* */
 @media (max-width: 767px) {}
@@ -206,43 +196,33 @@ footer {
 /* Small Devices, .visible-sm-* */
 @media (min-width: 768px) and (max-width: 991px) {}
 
-/* Medium Devices, .visible-md-* */
-@media (min-width: 992px) and (max-width: 1199px) {}
 
-/* Large Devices, .visible-lg-* */
-@media (min-width: 1200px) {}
 
 
 
   /* Custom, iPhone Retina */
   @media only screen and (min-width : 320px) {
 
+    #heading h3{
+      font-size: 18px;
+    }
+
   }
 
   /* Extra Small Devices, Phones */
-  @media only screen and (min-width : 480px) {
-
+  @media only screen and (min-width : 480px) and (max-width : 767px) {
+    /*
+    #heading h3{
+      font-size: 20px;
+    }
+    */
   }
 
-  /* Small Devices, Tablets */
-  @media only screen and (min-width : 768px) {
+  /* Small Devices, Tablets, .visible-sm-* */
+  @media only screen and (min-width : 768px) and (max-width : 991px) { }
 
-  }
+  /* Medium Devices, Desktops, .visible-md-* */
+  @media only screen and (min-width : 992px) and (max-width : 1199px){ }
 
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width : 992px) {
-
-  }
-
-  /* Large Devices, Wide Screens */
-  @media only screen and (min-width : 1200px) {
-
-  }
-
-
-
-  @media only screen and (orientation: landscape) {
-    //  body {
-    //      background-color: lightblue;
-    //  }
-  }
+  /* Large Devices, Wide Screens,  .visible-lg-*  */
+  @media only screen and (min-width : 1200px) { }
