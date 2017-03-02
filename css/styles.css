@@ -118,22 +118,37 @@ p {
 
 /* ####### PROGRAMME ####### */
 
-#programme {
+.programme {
   margin-bottom: 30px;
 }
 
-#programme p {
+.programme p {
   font-weight:bold;
 }
 
-#programme ul {
-  font-weight:bold;
+.programme ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-#programme ul li {
-  font-weight:bold;
-  margin: 15px;
+.programme ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.3em;
+  margin: 0 0 10px;
+  
 }
+
+
+
+
+/* margin: 15px;   */
+
+
+
+
+
+
 
 
 
@@ -165,6 +180,23 @@ p {
 .usefulLinksItem {
   margin: 30px 0px;
 }
+
+
+
+/* ######### BEST TIMES ######### */
+
+#bestTime ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#bestTime ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.3em;
+  margin: 0 0 10px;
+}
+
 
 
 /* ######### FOOTER ######### */
